@@ -1,0 +1,1 @@
+the files in this directory are hidden in Beyond Compare.

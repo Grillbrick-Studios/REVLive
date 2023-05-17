@@ -1,0 +1,61 @@
+.styledd-menu-parent {position:relative;height:100%;}
+
+.styledd-menu {
+  visibility:hidden;
+  opacity:0;
+  position:absolute;
+  top:100%;
+  left:0;
+  min-width:30px;
+  white-space:nowrap;
+  border:1px solid #777;
+  transform:translateY(-2em);
+  z-index: -1;
+  transition: all 0.4s ease-in-out 0s, visibility 0s linear 0.4s;
+}
+
+.styledd-menu-parent:focus .styledd-menu,
+.styledd-menu-parent:focus-within .styledd-menu,
+.styledd-menu-parent:hover .styledd-menu {
+  visibility:visible;
+  opacity:1;
+  z-index:1;
+  transform:translateY(0%);
+  transition-delay:0s, 0s, .3s;
+}
+
+styledd {
+  display:inline-block;
+  font-family: -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  font-size:.9em;
+}
+styledd a {display:block;padding:.4em;text-decoration:none;}
+styledd a:hover {text-decoration:none;}
+styledd ul,
+styledd ul li {list-style-type:none;padding:0;margin:0;}
+styledd > ul {text-align:left; }
+styledd > ul > li {display:block;border:solid 1px #777;border-radius:3px;}
+
+.hlspan{
+  /*display:inline;*/
+  transition:background-color .3s;
+}
+
+.divtr{
+  display:table-row;
+  }
+.divtd{
+  display:table-cell;
+  padding:5px 5px 3px 5px;
+  border-bottom:1px solid #ccc;
+  }
+.sorthandle{
+  width:1.3em;
+  margin-bottom:2px;
+  cursor:move;
+  cursor: -webkit-grabbing;
+  }
+

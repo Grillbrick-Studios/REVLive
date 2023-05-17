@@ -1,0 +1,36 @@
+<html>
+<head>
+  <meta id="meta" name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Instructions</title>
+  <link rel="stylesheet" type="text/css" href="/includes/styleinstructions.css" />
+</head>
+<body>
+<h2>Instructions for installing the REV into &ldquo;BibleWorks&rdquo; on a Windows PC</h2>
+It is assumed you have Bibleworks 6 or greater.  This -may- work with earlier versions, but it has not been tested.<br />
+
+<ol>
+  <li>You must have BibleWorks installed on your PC.</li>
+  <li>Make sure that BibleWorks is not running.</li>
+  <li>Download the REV_Bibleworks.zip from the <a href="/expt">Export</a> section of the REV website,
+      keeping track of where your browser is saving the file to.  Usually, this will be in your &ldquo;Downloads&rdquo; folder, as seen here in Windows Explorer.<br />
+      <img src="/expinst/images/Bibleworks_inst1.jpg" alt="" border=0></li>
+  <li>Copy or move the rev.ddf file into the folder "C:\Program Files (x86)\BibleWorks XX\userdb".  Replace the XX with the version number of the BW program you own.<br />
+      <img src="/expinst/images/Bibleworks_inst2.jpg" alt="" border=0></li>
+  <li>Copy or move the rev.txt file into the folder "C:\Program Files (x86)\BibleWorks XX\databases".<br />
+      <img src="/expinst/images/Bibleworks_inst3.jpg" alt="" border=0></li>
+  <li>Start Bibleworks.</li>
+  <li>Click "Tools/Importing/Exporting Information/Version Database Compiler".</li>
+  <li>In the window that opens, under #1 "Database Description File (DDF)", click "Open", and load the rev.ddf file.<br />
+      <img src="/expinst/images/Bibleworks_inst4.jpg" alt="" border=0></li>
+  <li>Under #2 "Database Raw Text File", click "Browse" and navigate to C:\Program Files (x86)\BibleWorks XX\databases, and double-click the "REV.txt" file that you just copied there in step 5.<br />
+      <img src="/expinst/images/Bibleworks_inst5.jpg" alt="" border=0></li>
+  <li>In the lower right, make sure "Install after Compiling" is checked, and then click the "Compile" button.<br />
+      <img src="/expinst/images/Bibleworks_inst6.jpg" alt="" border=0></li>
+  <li>The database should compile, and you should see "...Build was successful. Installed in: c:\program files (x86)\bibleworks XX\databases" in the output window.<br />
+      <img src="/expinst/images/Bibleworks_inst7.jpg" alt="" border=0></li>
+  <li>Click the "Close" button, and the REV should now be available from within Bibleworks. Note that if you are using BibleWorks version 10 you will be prompted to restart the program. Go ahead and do so.</li>
+</ol>
+Due to a limitation of the way we are importing the REV into BibleWorks, Greek and Hebrew words have been removed from the commentary,
+  and diacritic letters have been converted to standard ASCII characters.<br />
+</body>
+</html>

@@ -1,0 +1,14 @@
+html,body {
+    color:#000000;
+    background-color:#fff;
+    font-family:"times new roman", arial;
+    font-size:1.1em;
+    margin:0;
+    padding:8px;
+}
+li {
+    padding-bottom:15px;
+}
+a {
+  color:blue;
+}

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tab test</title>
+  <style>
+
+.container {
+  position: fixed;
+  display: flex;
+  margin:4px 0 0 0; /* dunno why it needs this*/
+  overflow-x:hidden;
+  overflow-y:auto;
+}
+
+.tab-content {
+  position:relative;
+  display:block;
+  border-radius: 5px;
+  flex-basis: 50%;
+  padding: 10px;
+  margin:0 5px;
+  z-index: 10;
+  overflow-x:hidden;
+}
+
+.left-panel  {background-color: #dfdfdf;}
+.right-panel {background-color: #dbd708;}
+
+.tabs {
+  display: none;
+  margin-top:11px;
+  margin-left:5px;
+}
+
+.tab{
+  display:inline-block;
+  width:90px;
+  margin:0;
+  padding:2px;
+  font-size: 80%;
+  border-radius: 5px 5px 0 0;
+  text-align: center;
+  cursor:pointer;
+}
+
+.vhead {
+  position:fixed;
+  top:12px;
+  padding:4px 0 0 0;
+  border-bottom:1px solid black;
+  z-index:10;
+  background: inherit;
+}
+
+@media (max-width: 600px) {
+  .container {margin:0;}
+  .left-panel, .right-panel {
+    flex-basis: 100%;
+    border-radius: 0 5px 5px 5px;
+    }
+  .right-panel{display:none;}
+  .tabs {display: block;} 
+  .vhead {top:32px;} 
+}
+ 
+  </style>
+ </head>
+<body style="font-family: merriweather;">
+  <div class="tabs">
+    <div class="tab" style="background-color:#dfdfdf;" onclick="showdiv('bible')">Bible</div>
+    <div class="tab" style="background-color:#dbd708;" onclick="showdiv('commentary')">Commentary</div>
+  </div>
+  <div id="container" class="container">
+    <div id="bible" class="tab-content left-panel">
+      <p style="margin:0;">
+        <strong>Genesis Chapter 1</strong><br /> 
+        <sup>1</sup>In the beginning God created the heavens and the earth.<br /><br />
+        <sup>2</sup>And the earth was formless and empty, and darkness was on the face of the deep. And the spirit of God was hovering over the face of the waters.<br /><br />
+        <sup>3</sup>God said, &ldquo;Let there be light,&rdquo; and there was light.<br /> 
+        <sup>4</sup>And God saw the light, that it was good. And God separated the light from the darkness. <br />
+        <sup>5</sup>And God called the light &ldquo;day,&rdquo; and the darkness he called &ldquo;night.&rdquo; And there was evening and there was morning, one day.<br /><br />
+        <sup>6</sup>And God said, &ldquo;Let there be an expanse in the middle of the waters, and let it separate the waters from the waters.&rdquo;<br /> 
+        <sup>7</sup>And God made the expanse and separated the waters that were under the expanse from the waters that were above the expanse; and it was so.<br /> 
+        <sup>8</sup>And God called the expanse &ldquo;heaven.&rdquo; And there was evening and there was morning, a second day.<br /><br />
+        <sup>9</sup>And God said, &ldquo;Let the waters under the heavens be gathered together to one place, and let the dry land appear,&rdquo; and it was so. <br />
+        <sup>10</sup>And God called the dry land &ldquo;earth&rdquo; and the gathering together of the waters he called &ldquo;seas.&rdquo; And God saw that it was good.<br /><br />
+        <sup>11</sup>God said, &ldquo;Let the earth sprout forth vegetation: plants seeding forth seed and fruit trees of every kind on the earth, bearing fruit with its seed in it,&rdquo; and it was so.<br />
+        <sup>12</sup>And the earth brought forth vegetation, plants of every kind seeding forth seed, and trees of every kind bearing fruit with its seed in it. And God saw that it was good.<br />
+        <sup>13</sup>And there was evening and there was morning, a third day.<br /><br />
+        <sup>14</sup>And God said, &ldquo;Let there be lights in the expanse of the heavens to separate the day from the night; and let them be for signs and for seasonsb and for days and years;<br /> 
+        <sup>15</sup>and let them be for lights in the expanse of the heavens to give light on the earth,&rdquo; and it was so.<br /> 
+        <sup>16</sup>God made the two great lights: the greater light to rule the day and the lesser light to rule the night; and he made the stars.<br /> 
+        <sup>17</sup>And God set them in the expanse of the heavens to give light on the earth<br /> 
+        <sup>18</sup>and to rule over the day and over the night, and to separate the light from the darkness. And God saw that it was good.<br /> 
+        <sup>19</sup>And there was evening and there was morning, a fourth day.
+      </p>
+    </div>
+    <div id="commentary" class="tab-content right-panel">
+      <div id="vhead" class="vhead">
+        Gen. 1:1 In the beginning God created the heavens and the earth.<br />
+      </div>
+      <p style="margin-top:0;">
+        <strong>&ldquo;In the beginning.&rdquo;</strong> The word &ldquo;the&rdquo; is not in the Hebrew text, so that leaves 
+        Genesis 1:1 open for some debate about how the verse should be translated and what it means. 
+        The absence of the definite article, along with the different ways some of the words can be structured or 
+        translated has given rise to a few different ways of translating&mdash;and ways of understanding&mdash;Genesis 1:1. 
+        These include, &ldquo;In the beginning God created the heavens and the earth&rdquo; (KJV; ESV); 
+        &ldquo;When God began to create the heavens and the earth&rdquo; (CEB); 
+        &ldquo;At the beginning of God&rsquo;s creating of the heavens and the earth&rdquo; (Fox, Schocken Bible).
+      </p>
+      <p>
+        <strong>&ldquo;In the beginning God.&rdquo;</strong> The first verse of the Bible says, &ldquo;In the beginning God&hellip;.&rdquo; 
+        The word &ldquo;God&rdquo; is translated from the Hebrew word elohim (#0430), and it refers to our one God.
+      </p>
+      <p>
+        The word elohim is always found in the plural form and is often called a uni-plural noun. 
+        A uni-plural noun is a word that appears in the plural form but is used for singular and plural subjects alike. 
+        &ldquo;Deer&rdquo; and &ldquo;fish&rdquo; are examples of uni-plural nouns in English. 
+        As with many Hebrew words, elohim carries more than one definition. When it is being used in a plural sense, 
+        it refers to &ldquo;gods&rdquo; or &ldquo;men with authority.&rdquo; When it is used in its singular sense, 
+        it can refer to &ldquo;God,&rdquo; or &ldquo;a god,&rdquo; or &ldquo;a man with authority, such as a judge.&rdquo; 
+        The Hebrew lexicon by Brown, Driver, and Briggs is considered to be one of the best available and it has 
+        as its first usage for elohim: &ldquo;rulers, judges, either as divine representatives at sacred places or as 
+        reflecting divine majesty and power, divine ones, superhuman beings including God and angels, gods.&rdquo;<sup>a</sup>        
+      </p>
+      <p>
+        In referring to a plural subject, elohim is translated &ldquo;gods&rdquo; in many verses. 
+        Genesis 35:2 reads, &ldquo;Get rid of all the foreign gods you have with you,&rsqb; and Exodus 18:11 says, 
+        &ldquo;Now I know that the Lord is greater than all other gods.&rdquo; It is translated as &ldquo;judges&rdquo; 
+        in Exodus 21:6; 22:8 and 22:9 (KJV; HCSB; NET; NIV). It is translated as &ldquo;angels&rdquo; (KJV) 
+        or &ldquo;heavenly beings&rdquo; (NIV) in Psalm 8:5. Some Trinitarians teach that since the word elohim is plural 
+        it implies a compound unity when it refers to God. In its plural use, there is no evidence that elohim implied that 
+        these &ldquo;gods&rdquo; had some kind of plurality of persons within themselves.
+      </p>  
+      <p>  
+        Elohim is also translated as the singular &ldquo;god&rdquo; or &ldquo;judge,&rdquo; 
+        and there is no hint of any &ldquo;compound nature&rdquo; when it is translated that 
+        way either. Examples of this use are: Exodus 22:20, &ldquo;Whoever sacrifices to any god 
+        other than the lord must be destroyed.&rdquo; Judges 6:31: &ldquo;If Baal really is a 
+        god, he can defend himself when someone breaks down his altar.&rdquo; Exodus 7:1: 
+        God says that He has made Moses a &ldquo;god&rdquo; (elohim) to Pharaoh. In Judges 11:24, 
+        the pagan god Chemosh is called elohim, and in 1 Samuel 5:7, the pagan god Dagon is 
+        called elohim. It is not taught or believed that these pagan gods were made of some 
+        kind of &ldquo;compound unity&rdquo; just because they were called elohim, and we 
+        should not conclude that because our true God is called elohim that He is a compound unity. 
+        He is not.
+      </p>
+    </div>
+  </div>
+  <script>
+    var activetab = 'bible';
+    
+    function showdiv(dv){
+      // iterate through all elements with class="tabcontent"
+      tabcontent = document.getElementsByClassName("tab-content");
+      for (i=0;i<tabcontent.length;i++) {
+        tabcontent[i].style.display = ((tabcontent[i].id==dv)?'block':'none');
+      }
+      activetab = dv;
+      doresize();
+    }
+
+    function doresize(){
+      var sz = window.innerWidth;
+      var display = ((sz>600)?'block':'none');
+      tabcontent = document.getElementsByClassName("tab-content");
+      for(i=0;i<tabcontent.length;i++) {
+        tabcontent[i].style.display = ((tabcontent[i].id==activetab)?'block':display);
+      }
+      document.getElementById('container').style.height=(window.innerHeight-((sz>600)?26:46))+'px';
+      document.getElementById('vhead').style.width = (document.getElementById('commentary').offsetWidth-20)+'px';
+      document.getElementById('commentary').style.paddingTop = (document.getElementById('vhead').offsetHeight+4)+'px';
+    }
+    window.onload=doresize;
+    window.addEventListener("resize", doresize);
+
+  </script>
+</body>
+</html>

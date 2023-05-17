@@ -1,0 +1,145 @@
+html,body, #bookmarks {
+  color:#5f4b32;
+  background-color:#fbf0d9;
+}
+
+a {color:#B25900;}
+a:active {color:red;}
+
+a.comlink0, a.comlink1, a.comlink2, a.comlink3 {color:#5f4b32}
+a.comlink1:hover { color:#2d7bff; TEXT-DECORATION: none}
+a.comlink3:hover { color:#2d7bff; TEXT-DECORATION: underline}
+
+/*#header{background-color:#fbf0d9;box-shadow: 4px 4px 4px 0 #f5cfa9;}  fbf0d9*/
+#header{background-color:#fbf0d9;box-shadow: 4px 4px 4px 0 #dbd0b9;}
+#nav{ background-color:#fbf0d9;box-shadow: 4px 4px 4px 0 #dbd0b9;border-top:1px solid #dbd0b9;}
+#biblenav{
+  background-color:#fbf0d9;
+  border:1px solid #999;
+  box-shadow: 4px 4px 4px 0 #dbd0b9;
+}
+
+#view{color:#5f4b32;background-color:#fbf0d9;}
+
+.setdivu {
+  border:1px solid #aaa;
+}
+.gridtable tr, .gridtable td{
+  border:1px solid #bda78e;
+}
+
+.versenum{color:#bda78e;}
+
+.versenumcomm{color:#B25900;}
+
+.pageheader{}
+
+.rNotInText, em.rNotInText{color:#bda78e;}
+
+.heading, .headingfirst{}
+
+.microheading, .microheadingfirst{color: #bda78e;}
+
+.footnote{color: #bda78e;}
+
+.supfootnote{color: #bda78e;}
+
+.fnmark{color: #bda78e;}
+
+.taglinecomm{color:#B25900;}
+
+.toplink{color:#bda78e;}
+
+.col2container, .col3container, .col4container, .col5container{
+  column-gap: 40px;
+  column-rule: 1px outset #bda78e;
+  -moz-column-gap: 40px;
+  -moz-column-rule: 1px outset #bda78e; /* Firefox */
+  -webkit-column-gap: 40px;
+  -webkit-column-rule: 1px outset #bda78e; /* Chrome, Safari, Opera */
+}
+
+hr{
+  border-top:1px solid #bda78e;
+}
+
+hr.divider {
+  border : 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(224,224,224, 0), rgba(224,224,224, 0.75), rgba(224,224,224, 0));
+  max-width: 300px;
+  margin-left: 30px;
+}
+
+.srchtext{
+  color:#5f4b32;
+  /*background-color:#edd7be;*/
+  background-color:#dbd0b9;
+}
+
+.gobackbutton{
+  text-align:center;
+  font-size:18px;
+  width:140px;
+  height:1.7em;
+  border-radius:8px;
+  border:1px solid #bda78e;
+  background-color:#dbd0b9;
+  color:#5f4b32;
+}
+
+.amenu{
+  color:#5f4b32;
+}
+.amenu:hover{
+  color:#5f4b32;
+  background-color:#dbd0b9;
+}
+
+.hilite{color:#2d7bff;}
+.bghilite{background-color:#dbd0b9;}
+
+::-webkit-scrollbar{background-color:#fbf0d9;}
+::-webkit-scrollbar-thumb{background:#dbd0b9;}
+
+/*
+
+  below are the styles for the bibly based popups
+
+*/
+.findvers_popup_outer{
+  color: #111111;
+  background: #fbf0d9;
+  border: solid 1px #5f4b32;
+  /*
+  -webkit-box-shadow: 0 3px 5px #dbd0b9;
+     -moz-box-shadow: 0 3px 5px #dbd0b9;
+          box-shadow: 0 3px 5px #dbd0b9;
+  */
+  box-shadow: 3px 3px 5px 0 #dbd0b9;
+}
+
+.findvers_popup_header {
+  background: #5f4b32;
+  color: #fbf0d9;
+}
+
+.findvers_popup_content {
+  color: #5f4b32;
+}
+.marginnote {
+  background-color:#ffe;
+  border: 1px solid #5f4b32;
+}
+
+.mnotedarr:before {
+  border-left: 5px solid #5f4b32;
+  border-top: 5px solid #5f4b32;
+}
+.mnotedarr:after {
+  border-left: 4px solid #ffe;
+  border-top: 4px solid #ffe;
+}
+
+
+

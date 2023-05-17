@@ -1,0 +1,129 @@
+html,body, #bookmarks {
+  color:#dddddd;
+  background-color:#000;
+}
+
+a {color:#ccccff;}
+a:active {color:red;}
+
+a.comlink0, a.comlink1, a.comlink2, a.comlink3 {color:#dddddd}
+a.comlink1:hover { color:yellow; TEXT-DECORATION: none}
+a.comlink3:hover { color:yellow; TEXT-DECORATION: underline}
+
+#header{background-color:#000;box-shadow: 4px 4px 4px 0 #444;}
+#nav{ background-color:#000;box-shadow: 4px 4px 4px 0 #444;border-top:1px solid #333;}
+#biblenav{
+  background-color:#1a1a19;
+  border:1px solid #999;
+}
+
+#view{color:#dddddd;background-color:#000;}
+
+.setdivu {
+  border:1px solid #aaa;
+}
+.gridtable tr, .gridtable td{
+  border:1px solid #666;
+}
+
+
+.versenum{color:#aaaaaa;}
+
+.versenumcomm{color:#ffcccc;}
+
+.pageheader{}
+
+.notintext{color:#aaaaaa;}
+
+.heading, .headingfirst{}
+
+.microheading, .microheadingfirst{color: #999999;}
+
+.footnote{color: #999999;}
+
+.supfootnote{color: #999999;}
+
+.fnmark{color: #999999;}
+
+.taglinecomm{color:#ffcccc;}
+
+.toplink{color:silver;}
+
+hr.divider {
+  border : 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(224,224,224, 0), rgba(224,224,224, 0.75), rgba(224,224,224, 0));
+  max-width: 300px;
+  margin-left: 30px;
+}
+
+.srchtext{
+  color:#eee;
+  background-color:#444;
+}
+
+.gobackbutton{
+  text-align:center;
+  font-size:18px;
+  width:140px;
+  height:1.7em;
+  border-radius:8px;
+  border:1px solid #666;
+  background-color:#444;
+  color:#ddd;
+}
+
+.amenu{
+  color:#ddd;
+}
+.amenu:hover{
+  color:#ddd;
+  background-color:#444;
+}
+
+.hilite{color:#2d7bff;}
+.bghilite{background-color:#444;}
+
+
+::-webkit-scrollbar{background-color:#000;}
+::-webkit-scrollbar-thumb{background:#555;}
+
+/*
+
+  below are the styles for the bibly based popups
+
+*/
+.findvers_popup_outer{
+  color: #111111;
+  background: #333333;
+  border: solid 1px #ffffff;
+}
+
+.findvers_popup_header {
+  background: #666666;
+  color: #dddddd;
+}
+
+.findvers_popup_content {
+  color: #dddddd;
+}
+.marginnote {
+  background-color:#333;
+  border: 1px solid #aaa;
+}
+.mnotedarr:before {
+  border-left: 5px solid #aaa;
+  border-top: 5px solid #aaa;
+}
+.mnotedarr:after {
+  border-left: 4px solid #333;
+  border-top: 4px solid #333;
+}
+.editnote{
+  color:#666;
+}
+.peernote{
+  color:#666;
+}
+
+

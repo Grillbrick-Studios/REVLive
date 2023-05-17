@@ -1,0 +1,1 @@
+This directory is, or will be, used by libreoffice on linux, if we ever get there.

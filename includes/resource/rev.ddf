@@ -1,0 +1,34 @@
+bwversion 9.0.12.721
+compilerversion 2
+rawdatafile c:\temp\bwexport\rev.txt
+name Revised English Version
+font Default
+fontsize 12
+language English
+languagegroup English
+hasstrongs no
+hassuperscripts yes
+hasitalics yes
+transliterated no
+accentsensitive no
+hasxrefs no
+hassmallcaps no
+usenaslexicon no
+sourceformat ccat
+sourceid 0
+keyboard English
+fonttype English
+dashoption 0
+apostropheoption 0
+codingscheme None
+wraptype EnglishText
+content OTandNT
+hasnotes no
+hasendnotes yes
+versionid REV
+companion
+locale English_United States.1252
+version 5000
+BeginGlobals
+
+EndGlobals

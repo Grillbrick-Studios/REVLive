@@ -1,0 +1,23 @@
+﻿How to import the REV into Bibleworks.
+
+This assumes you have extracted the bwexport.zip file somewhere on your computer..
+
+It is also assumed you have Bibleworks 7 or greater. This -may- work with earlier versions, but it has not been tested.
+
+1) Copy or move the rev.ddf file into the folder "C:\Program Files (x86)\BibleWorks XX\userdb". Replace the XX with the version number of the BW program you own.
+2) Copy or move the rev.txt file into the folder "C:\Program Files (x86)\BibleWorks XX\databases". Replace the XX with the version number of the BW program you own.
+3) Start Bibleworks.
+4) Click "Tools/Importing/Exporting Information/Version Database Compiler".
+5) In the window that opens, under #1 "Database Description File (DDF)", click "Open", and load the rev.ddf file.
+6) Under #2 "Database Raw Text File", click "Browse" and navigate to C:\Program Files (x86)\BibleWorks XX\databases, and double-click "REV.txt".
+7) In the lower right, make sure "Install after Compiling" is checked.
+8) Click the "Compile" button. The database should compile, and you should see "...Build was successful. Installed in: c:\program files (x86)\bibleworks XX\databases" in the output window.
+9) Click the "Close" button, and the REV should now be useable from within Bibleworks.
+
+The Greek and Hebrew words are parsed out of the commentary. Diacritic letters are converted to standard English letters.
+
+Please let me know of any issues
+
+I will work on solving them.
+
+Rob
